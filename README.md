@@ -1,1 +1,0 @@
-* [Jecinta Wanjiru](https://github.com/JECINTA534521)
