@@ -14,33 +14,105 @@
 
 <body>
     <div class="p-3 bg-secondary">  <!--DIV ADDS BACKGROUND COLOR-->
-    <form>
-        <div class="form-group m-4 p-3">
-            <div class="col-sm-10">
-                <label for="staticName" class="col-sm-2 col-form-label">Name</label>
-                <input type="text" class="form-control" id="staticName" placeholder="Sir Name">
+        <form>
+            <div class="form-group m-4 p-3">
+
+                <div class="col-sm-10">
+                    <label for="NumberofTeachers" class="col-sm-2 col-form-label">Teachers</label>
+                    <input type="number" class="form-control" class="NumberofTeachers" min="1" max="6" placeholder="x">
+                </div>
+
             </div>
-        </div>
-        <div class="form-group row m-4 p-3">
-            <div class="col-sm-10">
-                <label for="staticId" class="col-sm-2 col-form-label">Id</label>
-                <input type="text" class="form-control" id="staticId" placeholder="Id No:">
+            <div class="form-group m-4 p-3">
+
+                <div class="col-sm-10">
+                    <label for="NumberofSubjects" class="col-sm-2 col-form-label">Subjects</label>
+                    <input type="number" class="form-control" class="NumberofSubjects" min="1" max="6" placeholder="x">
+                </div>
+
             </div>
-        </div>
-        <div class="form-group row m-4 p-3">
-           
-            <div class="col-sm-10">
-                <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
-                <input type="text" class="form-control" id="staticEmail" placeholder="Email@gmail.com">
-            </div>
-        </div>
-        <div class="form-group row m-4 p-3">
             
-            <div class="col-sm-10">
-                <button type="button" class="btn btn-outline-success">Submit</button>
+            <div class="form-group row m-4 p-3">
+            
+                <div class="col-sm-10">
+                    <button type="button" class="btn btn-outline-success">Submit</button>
+                </div>
+
             </div>
+        </form>
+        <div class="table-responsive">
+            <table class="table">
+                <table class="table table-hover table-dark">
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">8:30-9:30</th>
+                            <th scope="col">9:30-10:30</th>
+                            <th scope="col">10:3-11:30</th>
+                            <th scope="col">11:30-12:30</th>
+                            <th scope="col">12:30-2:00</th>
+                            <th scope="col">2:00-3:00</th>
+                            <th scope="col">3:00-4:00</th>
+                            <th scope="col">4:00-5:00</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">MONDAY</th>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="table-secondary td" rowspan="5"  align="center">L<br><br>U<br><br>N<br><br>C<br><br>H</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">TUESDAY</th>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">WEDNESDAY</th>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">THURSDAY</th>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">FRIDAY</th>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                            <td class="td">*</td>
+                        </tr>
+                    </tbody>
+                </table> 
+            </table>
         </div>
-    </form>
+       
     </div>
 </body>
 
