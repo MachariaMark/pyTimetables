@@ -13,3 +13,9 @@ for (var i = 1; i <= numberOfTeachers[0]; i++) {
 for (var j = 1; j <= numberOfTeachers[0]; j++) {
     teacherNames.push($("#teachersName" + j).val());
 }
+
+numberOfSubjects.push(5);
+
+for (var j = 1; j <= numberOfSubjects[0]; j++) {
+    $("#two").append('<form><label for=subjectName' + j + '>Name of Subject:</label><input type="text" class="form-group" placeholder="Name OF Subject" id="subjectName"' + j + '></form>')
+}
